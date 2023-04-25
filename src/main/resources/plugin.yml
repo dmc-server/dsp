@@ -1,0 +1,13 @@
+name: Server
+version: 1.0.0
+main: dev.marius.dsp.Plugin
+
+author: Marius
+description: This plugin manage the connection between Discord and Minecraft Server
+
+depend:
+  - Essentials
+  - EssentialsSpawn
+
+commands:
+  login:

@@ -1,0 +1,6 @@
+bin/
+out/
+server/
+target/
+dependency-reduced-pom.xml
+setup.docx
