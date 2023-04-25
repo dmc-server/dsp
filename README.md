@@ -7,6 +7,18 @@ As I said, the progress I made during these 2 years is shown in these files beca
 
 So take a coffee and enjoy this shitty code :)
 
+## Structure of the code
+
+This project is not well organized, to say it nice.
+
+Mainly, our plugin depends on Maven for dependencies, but for building we rely on the IntelliJ build system.  
+Aswell, we have two projects setup, `David Server Plugin.iml` and `dsp.iml`.  
+Furthermore, `src/main/java` includes two dependencies, I didn't add via Maven but rather by source.
+
+I don't know why I did all of this but I have to work on this. If I would remain coding this project I probably would refactor the code to one project, all Maven and other, but I don't want to spend any more time in a project that does not continue to be used.
+
+If you want to refactor the code yourself, feel free to contact me on Discord or create a pull request.
+
 ## Disclaimer
 
 Our plugin **saves** IP-addresses of the users joining the Minecraft Server. This is done because we don't want them to enter the Login-Token every time they login but rather only if they join with an unknown IP-address.  
